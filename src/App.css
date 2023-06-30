@@ -1,0 +1,82 @@
+.container {
+  text-align: center;
+}
+
+.inner-container {
+  background-color: #24232b;
+  padding: 24px;
+  width: 50%;
+  margin-left: 25%;
+}
+
+.flex-box {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+.flex-box {
+  color: #fff;
+}
+
+.input-range {
+  width: 100%;
+}
+
+.button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #2a8b8b;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+}
+.button:hover, .button:active {
+  background-color: #2da4a4;
+}
+
+.buttom-lg {
+  font-size: 24px;
+}
+
+.checkbox-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+}
+
+.checkbox-grid div {
+  display: flex;
+  gap: 5px;
+  padding-bottom: 25px;
+}
+
+.text-red {
+  color: red;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 768px) {
+  .inner-container {
+    width: 100%;
+    margin-left: 0;
+    padding: 10px;
+  }
+  .flex-box {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .checkbox-grid {
+    grid-template-columns: auto;
+  }
+  .input-range-box {
+    padding-right: 20px;
+  }
+}
